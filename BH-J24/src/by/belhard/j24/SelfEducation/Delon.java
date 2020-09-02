@@ -1,6 +1,5 @@
 package by.belhard.j24.SelfEducation;
-//123
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class Delon {
