@@ -7,6 +7,7 @@ public class Delon {
     public static void main(String[] args) {
         System.out.println();
         System.out.println();
+        System.out.println();
         int n;
         Scanner in = new Scanner(System.in);
         System.out.println("Введите количество сравниваемых чисел: ");
