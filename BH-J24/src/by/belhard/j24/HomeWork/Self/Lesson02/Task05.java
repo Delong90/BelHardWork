@@ -19,6 +19,8 @@ public class Task05 {
         System.out.print("Введите степень в которую будет возводится число: ");
         n = in.nextInt();
 
+
+
         int b = 1;
 
         for(int c = 1 ;c<=n;c++){
