@@ -1,5 +1,8 @@
 package by.belhard.j24.HomeWork.Self.Lesson02;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Task01 {
 
     public static void main (String args[ ]){
@@ -28,5 +31,8 @@ public class Task01 {
 
         System.out.println();
         System.out.println(D-C-B-A + " - результат вычитания из числа D остальных чисел");
+
+
+
     }
 }

@@ -12,13 +12,16 @@ public class Task04 {
                 "годом постройки. Адрес состоит из улицы и номера дома.");
         System.out.println();
 
-        Building building1 = new Building("Жилой дом","Ленина", 3,6, Elevator.есть,"дом кирпичный");
+        Building building1 = new Building("Жилой дом",new Street("Ленина", 4),6, Elevator.есть,"дом кирпичный");
         System.out.println("Описание объекта building1:");
-        System.out.println(building1);
+        //System.out.println(building1.number);
 
 
-        Building building2 = new Building("Промышленное здание","Заводская", 126,2, Elevator.нету,"железобетонный каркас");
+        Building building2 = new Building("Промышленное здание", new Street("Соколова", 3),2, Elevator.нету,"железобетонный каркас");
         System.out.println("Описание объекта building2:");
         System.out.println(building2);
+
+
+
     }
 }
