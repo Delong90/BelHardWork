@@ -12,6 +12,7 @@ public class Main {
         System.out.println(getSquare(figure1));
         figure1 = new Rectangle(5, 10);
         System.out.println(getSquare(figure1));
+
     }
 
     /*@Deprecated

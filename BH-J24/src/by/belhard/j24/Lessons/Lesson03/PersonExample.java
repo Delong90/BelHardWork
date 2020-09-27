@@ -6,6 +6,8 @@ public class PersonExample {
 
         Person person1 = new Person();
 
+
+
         /*System.out.println(person1.age + " " + person1.name);
 
         person1.name = "Igor";

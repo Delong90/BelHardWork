@@ -7,6 +7,7 @@ public class Main {
     public static void main (String[] args) {
 
         List<String> libraryString = new ArrayList<>();
+        StringBuilder result = new StringBuilder();
 
         libraryString.add("qqq");
         libraryString.add("qqqq");
@@ -17,8 +18,9 @@ public class Main {
 
         for (String x : libraryString){
             if(x.length()<5)
-                System.out.print(x + " ");
+                result.append(x + " ");
         }
 
+        System.out.println(result);
     }
 }

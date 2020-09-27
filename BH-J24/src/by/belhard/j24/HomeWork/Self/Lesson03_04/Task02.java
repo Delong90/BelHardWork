@@ -1,5 +1,7 @@
 package by.belhard.j24.HomeWork.Self.Lesson03_04;
 
+import java.util.Arrays;
+
 public class Task02 {
         public static void main (String args[ ]) {
         int n = 4;
@@ -14,5 +16,7 @@ public class Task02 {
             }
             System.out.println();
         }
+
+
         }
 }
